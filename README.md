@@ -1,7 +1,7 @@
 ### Hi there 👋
 LEE Dae Seung
 <!--
-**bigwin0207/bigwin0207** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbigwin0207%2Fbigwin0207%2Fblob%2Fmain%2FREADME.md&count_bg=%2379C83D&title_bg=%232D71CE&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)**bigwin0207/bigwin0207** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
