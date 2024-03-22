@@ -23,12 +23,12 @@ public class Application6 {
         *  또한 메소드 선언부에 선언한 리턴타입 반환값의 자료형은 반드시 일치하여야한다.
         * */
 
-        System.out.println("main 매소드 시작함");
+        System.out.println("main 메소드 시작함");
 
         Application6 app6 = new Application6();
         app6.testMethod();
 
-        System.out.println("main 매소드 종료함");
+        System.out.println("main 메소드 종료함");
 
         String returnTest = app6.testMethod();
 
@@ -38,7 +38,7 @@ public class Application6 {
     }
         public String testMethod(){
 
-
+            System.out.println("1");
 
             return"hello world";
         }

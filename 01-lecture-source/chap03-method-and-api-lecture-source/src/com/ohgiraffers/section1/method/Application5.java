@@ -14,6 +14,7 @@ public class Application5 {
         System.out.println("main()메소드 시작함");
 
         /* 1. 메소드 리턴 테스트 */
+
         Application5 app5 = new Application5();
         app5.testMethod();
 
@@ -26,11 +27,11 @@ public class Application5 {
 
         System.out.println("테스트 메소드 동작 확인...");
 
-        /* 컴파일러에 의해 자동으로 추가되는 구문이다.
-        *  가장 마지막으로 작성하고, 마지막에 작성되지 않을 경우는 컴파일 에러를 발생시킨다.
-        * */
-
         return;
+
+        /* 컴파일러에 의해 자동으로 추가되는 구문이다.
+         *  가장 마지막으로 작성하고, 마지막에 작성되지 않을 경우는 컴파일 에러를 발생시킨다.
+         * */
 
         // System.out.println(); // 에러 발생. return은 메소드 가장 마지막에 작성해야한다.
     }
