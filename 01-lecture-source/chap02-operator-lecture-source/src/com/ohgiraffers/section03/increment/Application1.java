@@ -42,6 +42,7 @@ public class Application1 {
         System.out.println("result : " + result);
         System.out.println("firstNum : " + firstNum);
 
+
         int secondNum = 20;
         int result1 = ++secondNum * 3;
 
