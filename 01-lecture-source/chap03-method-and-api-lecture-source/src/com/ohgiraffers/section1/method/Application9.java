@@ -22,7 +22,7 @@ public class Application9 {
 
         /* static 메소드인 경우*/
         /* 다른 클래스에 작성한 static 메소드의 경우 호출할 때 클래스명을 반드시 기술해야한다.
-        * 클래스명, 메소드명();
+        * 클래스명. 메소드명();
         * */
         // int max = maxNumber0f(first, second); //클래스명을 생략하면 에러가 발생한다.
         int max = Calculator.maxNumber0f(first,second);
