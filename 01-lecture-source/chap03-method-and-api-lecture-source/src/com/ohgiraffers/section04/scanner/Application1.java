@@ -14,13 +14,13 @@ public class Application1 {
         * */
             // java.util.Scanner sc = new java.util.Scanner(java.lang.System.in);
 
-            /* 1-2. 다른 클래스에 클래스 사용 시 패키지명을 생략하기 위해  사용하는 구문 사용 (import) */
+        /* 1-2. 다른 클래스에 클래스 사용 시 패키지명을 생략하기 위해  사용하는 구문 사용 (import) */
 
-            Scanner sc = new Scanner(System.in); //(System.in) 은 안쓰면 에러남
+        Scanner sc = new Scanner(System.in); //(System.in) 은 안쓰면 에러남
 
-            /* 2. 자료형 값 입력받기 */
-            /* 2-1. 문자열 입력받기*/
-            /* nextLine() : 입력 받은 값을 문자열로 반환해준다.*/
+        /* 2. 자료형 값 입력받기 */
+        /* 2-1. 문자열 입력받기*/
+        /* nextLine() : 입력 받은 값을 문자열로 반환해준다.*/
         System.out.print("이름을 입력해주세요 : ");
         String name = sc.nextLine();
         System.out.println("입력하신 이름은 " + name + "입니다.");
@@ -45,6 +45,13 @@ public class Application1 {
         System.out.print("참과 거짓의 한가지를 true or false로 입력해주세요 : ");
         boolean com = sc.nextBoolean();
         System.out.println("입력하신 논리값은 " + com + "입니다.");
+
+        /* 2-5. 문자형 값 입력받기 */
+        /* charAt(int index)를 사용한다. */
+        sc.nextLine();
+        System.out.print("아무 문자나 입력해주세요. : ");
+        char ch = sc.nextLine().charAt(0);
+        System.out.println("입력하신 문자는" + ch + "입니다.");
 
 
 
