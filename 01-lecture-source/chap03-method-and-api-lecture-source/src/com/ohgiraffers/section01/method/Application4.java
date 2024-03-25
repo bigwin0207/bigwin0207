@@ -1,6 +1,4 @@
-package com.ohgiraffers.section1.method;
-
-import org.w3c.dom.CDATASection;
+package com.ohgiraffers.section01.method;
 
 public class Application4 {
 

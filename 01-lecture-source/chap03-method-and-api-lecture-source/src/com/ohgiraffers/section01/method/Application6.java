@@ -1,6 +1,4 @@
-package com.ohgiraffers.section1.method;
-
-import java.sql.SQLOutput;
+package com.ohgiraffers.section01.method;
 
 public class Application6 {
 

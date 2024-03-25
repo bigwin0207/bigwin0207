@@ -1,8 +1,8 @@
 package com.ohgiraffers.section02.package_and_import;
 
-import com.ohgiraffers.section1.method.Calculator;
+import com.ohgiraffers.section01.method.Calculator;
 
-import static com.ohgiraffers.section1.method.Calculator.maxNumber0f;
+import static com.ohgiraffers.section01.method.Calculator.maxNumber0f;
 
 public class Application2 {
 
