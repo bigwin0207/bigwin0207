@@ -1,6 +1,8 @@
 package com.ohgiraffers.section01.array;
 
 public class Application1 {
+
+
     public static void main(String[] args) {
         //Heap 휘발성 메모리
         //Stack 방을 생성해준다.
@@ -37,11 +39,11 @@ public class Application1 {
         /* 배열의 선언 및 할당*/
         int[] arr = new int[5];
 
-<<<<<<< HEAD
+
         /* 하나의 이름으로 관리되는 연속된 메모리 공간이고, 공간만다 찾아갈 수 있는 번호(인덱스)를 이용해 접근한다. */
-=======
+
         /* 하나의 이름으로 관리되는 연속된 메모리 공간이고, 공간마다 찾아갈 수 있는 번호(인덱스)를 이용해 접근한다. */
->>>>>>> e33345b (..)
+
         arr[0] = 10;
         arr[1] = 20;
         arr[2] = 30;
@@ -51,13 +53,11 @@ public class Application1 {
         /* 값을 대입할 때도 반복문으로 사용할 수 있다. */
         for(int i = 0,value = 0; i < arr.length; i++ ){
 
-<<<<<<< HEAD
+
             arr[i] = value += 10;
-=======
-             arr[i] = value += 10;
 
 
->>>>>>> e33345b (..)
+
         }
 
         /* 배열의 값을 누적해서 담을 변수 선언 */
