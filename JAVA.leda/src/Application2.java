@@ -36,7 +36,7 @@ public class Application2 {
                     System.out.println(c++); // c = 'A' 이며 'A'의 문자코드 65, 연산이 끝난후 1이 증가하므로 66이다. ( 정답
                     System.out.println(c); //65 ( 틀림 ( 앞의 연산식에서 c는 2가 증가 했기때문에 67 즉 C 가 나오게 된다.
 
-
+//2312321312
 
 
 
