@@ -19,8 +19,9 @@ public class Application3 {
         * */
 
         int num1 = 10;
+        int num2 = 15;
 
-        int result = (false && ++num1 > 0 )? num1 : num1;
+        int result = (false && ++num1 > 0 )? num1 : num2;
 
 
         System.out.println("&&실행 확인 : " + result);
@@ -31,9 +32,8 @@ public class Application3 {
         * 따라서 연산의 횟수르 줄이기 위해서는 || 연산의 경우 true가 나올 가능성이 높은 조건을 작성하는 게 좋다.
         * */
 
-        int num2 = 10;
 
-        int result1 = (true || ++num2 > 0 )? num2 : num2;
+        int result1 = (true || ++num2 > 0 )? num1 : num2;
 
         System.out.println("||실행 확인 : " + result1);
 

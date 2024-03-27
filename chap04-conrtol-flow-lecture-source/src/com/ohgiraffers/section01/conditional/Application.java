@@ -8,7 +8,7 @@ public class Application {
 
         A_if a = new A_if();
         /* 단독 if 문 호름 확인용 메소드 출력 */
-        // a.testSimpleIfStatement();
+        //a.testSimpleIfStatement();
 
         /* 중첩 if문 흐름 확인용 메소드 출력 */
         // a.testNestedIfStatement();
