@@ -27,7 +27,7 @@ public class Application5 {
 
         System.out.println("테스트 메소드 동작 확인...");
 
-        return;
+
 
         /* 컴파일러에 의해 자동으로 추가되는 구문이다.
          *  가장 마지막으로 작성하고, 마지막에 작성되지 않을 경우는 컴파일 에러를 발생시킨다.
